@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!-- Header -->
 <div id="header">
 
@@ -9,14 +11,17 @@
 	<!-- Nav -->
 	<nav id="nav">
 		<ul>
-			<li class="current"><a href="index.jsp">Home</a></li>
+			<li class="current"><a href="index">메인 페이지</a></li>
+			<li><a href="pro">반려동물 용품 판매</a></li>
+			<li><a href="hos">동물병원 검색</a></li>
+			<li><a href="commu">커뮤니티</a></li>
 			<li>
-				<a href="#">Dropdown</a>
+				<a href="#">고객관리</a>
 				<ul>
-					<li><a href="#">Lorem dolor</a></li>
-					<li><a href="#">Magna phasellus</a></li>
-					<li><a href="#">Etiam sed tempus</a></li>
-					<li>
+					<li><a href="#">고객센터</a></li>
+					<li><a href="#">QnA</a></li>
+					<li><a href="#">이벤트</a></li>
+					<!-- <li>
 						<a href="#">Submenu</a>
 						<ul>
 							<li><a href="#">Lorem dolor</a></li>
@@ -25,14 +30,9 @@
 							<li><a href="#">Etiam nisl</a></li>
 							<li><a href="#">Veroeros feugiat</a></li>
 						</ul>
-					</li>
-					<li><a href="#">Veroeros feugiat</a></li>
+					</li> -->
 				</ul>
 			</li>
-			<li><a href="/WEB-INF/views/left-sidebar.jsp">Left Sidebar</a></li>
-			<li><a href="/WEB-INF/views/right-sidebar.jsp">Right Sidebar</a></li>
-			<li><a href="/WEB-INF/views/two-sidebar.jsp">Two Sidebar</a></li>
-			<li><a href="/WEB-INF/views/no-sidebar.jsp">No Sidebar</a></li>
 		</ul>
 	</nav>
 
